@@ -1,0 +1,10 @@
+{
+  "name": "zenbit",
+  "packageManager": "yarn@3.2.1",
+  "devDependencies": {
+    "@yarnpkg/sdks": "^3.0.0-rc.12"
+  },
+  "workspaces": [
+    "apps/*"
+  ]
+}
