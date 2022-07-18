@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: fit-content;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 30px;
   margin-left: 10vw;
   margin-top: 10vh;
@@ -53,6 +53,8 @@ export const Button = styled.button`
   box-shadow: 2px; 
   border-radius: 500px;
   padding: 1.5em;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
   margin: 2px;
   border: none;
   cursor: pointer;
