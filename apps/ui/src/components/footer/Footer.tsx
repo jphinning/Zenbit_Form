@@ -8,7 +8,7 @@ interface FooterProps {
 export const Footer: React.FC<FooterProps> = ({ }) => {
   return (
     <Box>
-      <Img src='./src/assets/red_cartoon6.svg' topValue='0' leftValue='0%' />
+      <Img src='./src/assets/red_cartoon6.svg' topValue='5% ' leftValue='0%' />
       <Img src='./src/assets/green_cartoon.svg' topValue='0%' leftValue='90%' />
       <Img src='./src/assets/red_cartoon4.svg' topValue='30%' leftValue='95%' />
       <SocialMedia src='./src/assets/linkedn.svg' topValue='35%' leftValue='20%' />

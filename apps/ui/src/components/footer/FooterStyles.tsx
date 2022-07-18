@@ -24,7 +24,6 @@ export const Img = styled.img<SizingProps>`
 export const SocialMedia = styled.img<SizingProps>`
   position: absolute;
   top: ${({ topValue }) => topValue};
-  left: ${({ leftValue }) => leftValue}
-  /* top: 35%;
-  left: 20%; */
+  left: ${({ leftValue }) => leftValue};
+
 `
