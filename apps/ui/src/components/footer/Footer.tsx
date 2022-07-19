@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Img, SocialMedia } from './FooterStyles';
+import { Box, FirstImg, Img, PositionA, SocialMedia } from './FooterStyles';
 
 interface FooterProps {
 
@@ -8,13 +8,21 @@ interface FooterProps {
 export const Footer: React.FC<FooterProps> = ({ }) => {
   return (
     <Box>
-      <Img src='./src/assets/red_cartoon6.svg' topValue='5% ' leftValue='0%' />
+      <PositionA href='https://www.linkedin.com/'>
+        <SocialMedia src='./src/assets/linkedn.svg' />
+      </PositionA>
+      <a href='https://www.facebook.com/'>
+        <SocialMedia src='./src/assets/facebook.svg' />
+      </a>
+      <a href='https://www.pinterest.com/'>
+        <SocialMedia src='./src/assets/pinterest.svg' />
+      </a>
+      <a href='https://www.twitter.com/'>
+        <SocialMedia src='./src/assets/twitter.svg' />
+      </a>
+      <FirstImg src='./src/assets/red_cartoon6.svg' topValue='5% ' leftValue='-25%' />
       <Img src='./src/assets/green_cartoon.svg' topValue='0%' leftValue='90%' />
       <Img src='./src/assets/red_cartoon4.svg' topValue='30%' leftValue='95%' />
-      <SocialMedia src='./src/assets/linkedn.svg' topValue='35%' leftValue='20%' />
-      <SocialMedia src='./src/assets/twitter.svg' topValue='35%' leftValue='22%' />
-      <SocialMedia src='./src/assets/facebook.svg' topValue='35%' leftValue='24%' />
-      <SocialMedia src='./src/assets/pinterest.svg' topValue='35%' leftValue='26%' />
     </Box>
   );
 }

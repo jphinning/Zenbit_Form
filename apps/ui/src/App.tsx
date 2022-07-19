@@ -17,22 +17,6 @@ export const App: React.FC = () => {
   );
 }
 
-// interface BackgroudDivsProps {
-//   bgImg: string,
-//   topValue: string,
-//   bottomValue: string,
-//   show: boolean
-// }
-
-// const BackgroundDivs = styled.div<BackgroudDivsProps>`
-//   background-image: ${({ bgImg }) => bgImg};
-//   top: ${({ topValue }) => topValue};
-//   bottom: ${({ bottomValue }) => bottomValue};
-//   display: ${({ show }) => show ? 'block' : 'none'};
-//   position: absolute;
-//   width:100%;
-//   height:100%;
-// `
 
 const StyledApp = styled.div`
   display: flex;
@@ -43,6 +27,6 @@ const StyledApp = styled.div`
   justify-content: space-between;
   background-image: url(/Cloud.svg), url(/red_cartoon4.svg), url(/goodie1.svg), url(/red_cartoon3.svg), url(/ellipse.svg), url(/map.svg);
   background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-  background-position: center, left top, 75% 50%, 83% 65%, center top, top right;
+  background-position: center, left top, 75% 50%, 83% 65%, center top, right top;
   background-size: auto, auto, auto, auto, auto, 27.5%;
 `
