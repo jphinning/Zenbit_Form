@@ -41,7 +41,7 @@ export const Form: React.FC<FormProps> = () => {
     setLoadingState('loading');
 
     try {
-      const res = await axiosHttp.post('http://localhost:3000/forms', inputs);
+      const res = await axiosHttp.post('/forms', inputs);
       setLoadingState('success');
       console.log(res);
 

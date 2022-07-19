@@ -1724,6 +1724,33 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@nestjs/serve-static", [\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/@nestjs-serve-static-npm-3.0.0-dbf9cc0e70-fb5873506c.zip/node_modules/@nestjs/serve-static/",\
+          "packageDependencies": [\
+            ["@nestjs/serve-static", "npm:3.0.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:af8aaead9c1ba4b2a97b423771e1f9e14f4dc528a26d6d37b8c9814259628780692ddf2efd4010928c519812cccf1f414b31b1ee9e85623172333c59f62b7662#npm:3.0.0", {\
+          "packageLocation": "./.yarn/__virtual__/@nestjs-serve-static-virtual-e2fbd3c7e2/0/cache/@nestjs-serve-static-npm-3.0.0-dbf9cc0e70-fb5873506c.zip/node_modules/@nestjs/serve-static/",\
+          "packageDependencies": [\
+            ["@nestjs/serve-static", "virtual:af8aaead9c1ba4b2a97b423771e1f9e14f4dc528a26d6d37b8c9814259628780692ddf2efd4010928c519812cccf1f414b31b1ee9e85623172333c59f62b7662#npm:3.0.0"],\
+            ["@nestjs/common", "virtual:af8aaead9c1ba4b2a97b423771e1f9e14f4dc528a26d6d37b8c9814259628780692ddf2efd4010928c519812cccf1f414b31b1ee9e85623172333c59f62b7662#npm:9.0.3"],\
+            ["@nestjs/core", "virtual:af8aaead9c1ba4b2a97b423771e1f9e14f4dc528a26d6d37b8c9814259628780692ddf2efd4010928c519812cccf1f414b31b1ee9e85623172333c59f62b7662#npm:9.0.3"],\
+            ["@types/nestjs__common", null],\
+            ["@types/nestjs__core", null],\
+            ["path-to-regexp", "npm:0.2.5"]\
+          ],\
+          "packagePeers": [\
+            "@nestjs/common",\
+            "@nestjs/core",\
+            "@types/nestjs__common",\
+            "@types/nestjs__core"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@nestjs/testing", [\
         ["npm:9.0.3", {\
           "packageLocation": "./.yarn/cache/@nestjs-testing-npm-9.0.3-dc3083883b-540dcf38bc.zip/node_modules/@nestjs/testing/",\
@@ -7948,6 +7975,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],\
           "linkType": "HARD"\
         }],\
+        ["npm:0.2.5", {\
+          "packageLocation": "./.yarn/cache/path-to-regexp-npm-0.2.5-5af8f2ef58-44adcbd847.zip/node_modules/path-to-regexp/",\
+          "packageDependencies": [\
+            ["path-to-regexp", "npm:0.2.5"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
         ["npm:3.2.0", {\
           "packageLocation": "./.yarn/cache/path-to-regexp-npm-3.2.0-daf7bbd038-c3d35cda3b.zip/node_modules/path-to-regexp/",\
           "packageDependencies": [\
@@ -8825,6 +8859,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@nestjs/mapped-types", "virtual:af8aaead9c1ba4b2a97b423771e1f9e14f4dc528a26d6d37b8c9814259628780692ddf2efd4010928c519812cccf1f414b31b1ee9e85623172333c59f62b7662#npm:1.1.0"],\
             ["@nestjs/platform-express", "virtual:af8aaead9c1ba4b2a97b423771e1f9e14f4dc528a26d6d37b8c9814259628780692ddf2efd4010928c519812cccf1f414b31b1ee9e85623172333c59f62b7662#npm:9.0.3"],\
             ["@nestjs/schematics", "virtual:24184536ea28811159f27dd7a01525521db9c7501bfe2ab9a68ca81955f2bab50269bf36a674d542581489d378401cc8d8dd033b67d2e06346e8b5a3fbd9f9bc#npm:9.0.1"],\
+            ["@nestjs/serve-static", "virtual:af8aaead9c1ba4b2a97b423771e1f9e14f4dc528a26d6d37b8c9814259628780692ddf2efd4010928c519812cccf1f414b31b1ee9e85623172333c59f62b7662#npm:3.0.0"],\
             ["@nestjs/testing", "virtual:af8aaead9c1ba4b2a97b423771e1f9e14f4dc528a26d6d37b8c9814259628780692ddf2efd4010928c519812cccf1f414b31b1ee9e85623172333c59f62b7662#npm:9.0.3"],\
             ["@nestjs/typeorm", "virtual:af8aaead9c1ba4b2a97b423771e1f9e14f4dc528a26d6d37b8c9814259628780692ddf2efd4010928c519812cccf1f414b31b1ee9e85623172333c59f62b7662#npm:9.0.0"],\
             ["@types/express", "npm:4.17.13"],\
@@ -8837,6 +8872,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["eslint", "npm:8.20.0"],\
             ["eslint-config-prettier", "virtual:af8aaead9c1ba4b2a97b423771e1f9e14f4dc528a26d6d37b8c9814259628780692ddf2efd4010928c519812cccf1f414b31b1ee9e85623172333c59f62b7662#npm:8.5.0"],\
             ["eslint-plugin-prettier", "virtual:af8aaead9c1ba4b2a97b423771e1f9e14f4dc528a26d6d37b8c9814259628780692ddf2efd4010928c519812cccf1f414b31b1ee9e85623172333c59f62b7662#npm:4.2.1"],\
+            ["express", "npm:4.18.1"],\
             ["jest", "virtual:af8aaead9c1ba4b2a97b423771e1f9e14f4dc528a26d6d37b8c9814259628780692ddf2efd4010928c519812cccf1f414b31b1ee9e85623172333c59f62b7662#npm:28.1.2"],\
             ["pg", "virtual:af8aaead9c1ba4b2a97b423771e1f9e14f4dc528a26d6d37b8c9814259628780692ddf2efd4010928c519812cccf1f414b31b1ee9e85623172333c59f62b7662#npm:8.7.3"],\
             ["prettier", "npm:2.7.1"],\

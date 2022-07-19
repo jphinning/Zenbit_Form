@@ -1,7 +1,7 @@
-import { Module } from "@nestjs/common";
-import { ConfigModule } from "@nestjs/config";
-import { TypeOrmModule } from "@nestjs/typeorm";
-import { Form } from "src/forms/entities/form.entity";
+import { Module } from '@nestjs/common';
+import { ConfigModule } from '@nestjs/config';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { Form } from 'src/forms/entities/form.entity';
 
 @Module({
   imports: [
@@ -26,4 +26,4 @@ import { Form } from "src/forms/entities/form.entity";
   controllers: [],
   providers: [],
 })
-export class ConfigurationModule { }
+export class ConfigurationModule {}

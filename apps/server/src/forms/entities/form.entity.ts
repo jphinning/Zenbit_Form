@@ -13,5 +13,4 @@ export class Form {
 
   @Column()
   message: string;
-
 }

@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 
-import './assets/css/fonts.css'
+import './fonts.css'
 
 import { Footer } from './components/footer/Footer';
 import { Form } from './components/form/Form';

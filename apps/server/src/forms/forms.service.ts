@@ -7,18 +7,17 @@ import { Form } from './entities/form.entity';
 
 @Injectable()
 export class FormsService {
-
   constructor(
     @InjectRepository(Form)
     private usersRepository: Repository<Form>,
-  ) { }
+  ) {}
 
   create(createFormDto: CreateFormDto) {
     const form = new Form();
 
     return this.usersRepository.save({
       form,
-      ...createFormDto
+      ...createFormDto,
     });
   }
 
